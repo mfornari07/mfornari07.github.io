@@ -113,25 +113,31 @@
 </ul>
 </section>
 
-<section class="Contato">
+<section class="contato">
 <h2>Contato</h2>
-   <form action="https://api.staticforms.xyz/submit" method="post">
-        <input type="text" name="name" placeholder="Seu Nome">
-        <input type="text" name="email" placeholder="Seu E-mail" />
-        <textarea name="message"></textarea>
-        <input type="text" name="honeypot" style="display:none">
-        <input type="hidden" name="accessKey" value="c17e2627-75e3-49b2-b597-322098accf0f">
-        <input type="hidden" name="subject" value="Contact us from - example.com" />
-        <input type="hidden" name="replyTo" value="@">
-        <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
-        <input type="submit" value="Enviar" />
-    </form>
-</section>
+<form action="https://api.staticforms.xyz/submit" method="post">
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" placeholder="Seu Nome" required>
 
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" placeholder="Seu E-mail" required>
+    
+    <label for="message">Mensagem:</label>
+    <textarea id="message" name="message" placeholder="Sua Mensagem" required></textarea>
+    
+    <input type="text" name="honeypot" style="display:none">
+    <input type="hidden" name="accessKey" value="c17e2627-75e3-49b2-b597-322098accf0f">
+    <input type="hidden" name="subject" value="Contato do Currículo - Marcos Fornari">
+    <input type="hidden" name="replyTo" value="@">
+    <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+    
+    <button type="submit">Enviar</button>
+</form>
+</section>
 
 <footer>
 <div class="rodape">
-<p>Atualizado em: 05/05/2024</p>
+<p>Atualizado em: 23/05/2024</p>
 </div>
 </footer>
 </body>
