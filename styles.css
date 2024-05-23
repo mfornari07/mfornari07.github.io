@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: yellow;
+}
+
+section {
+    margin: 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.dados {
+    margin-bottom: 20px;
+}
+
+.dados h1 {
+    font-size: 24px;
+}
+
+.dados p {
+    margin: 5px 0;
+}
+
+.educacao, .experiencia {
+    margin-bottom: 20px;
+}
+
+.educacao h2, .experiencia h2, h2 {
+    font-size: 20px;
+    font-weight: bold; 
+    margin-top: 0;
+    color: #ff1a1a; 
+}
+
+.educacao ol, .experiencia ol {
+    padding-left: 20px;
+}
+
+.educacao ol li, .experiencia ol li {
+    margin-bottom: 10px;
+    font-weight: bold
+    font-family: 'Courier New', monospace;
+}
+
+.educacao ul, .experiencia ul {
+    padding-left: 20px;
+}
+
+.educacao ul li, .experiencia ul li {
+    margin-left: 20px;
+    font-family: 'Courier New', monospace;
+}
+
+.habilidades {
+    margin-bottom: 20px;
+}
+
+.habilidades h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    color: #ff1a1a;
+}
+
+.habilidades ul {
+    padding-left: 20px;
+}
+
+.habilidades li {
+    margin-bottom: 10px;
+    font-family: 'Courier New', monospace;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
